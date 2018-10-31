@@ -44,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileAds.initialize(this,"ca-app-pub-3940256099942544~3347511713");
-        adView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
-        adView.loadAd(adRequest);
+      //  MobileAds.initialize(this,"ca-app-pub-3753469604920772~2044885355");
+       /// adView = findViewById(R.id.adView);
+       // AdRequest adRequest = new AdRequest.Builder().build();
+       // adView.loadAd(adRequest);
         Toolbar toolbar =  findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         listView = findViewById(R.id.listview);
